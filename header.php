@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <a href="index.html">
+            <a href="index.php">
                 <div class="logo">
                     <img src="images/combil-logo.png" />
                 </div>
