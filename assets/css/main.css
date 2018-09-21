@@ -10,22 +10,26 @@ html {
     min-height: 100%;
 }
 .hero{
+    height: 550px;
     width: 100%;
 }
 .hero img{
+    height: 550px;
     width: 100%;
-    height: auto;
+   
+
 }
 .hero-text{
-    padding: 5px;
-    width: 60%;
-    border: 4px solid rgb(56, 56, 165);
-    background-color: #000000;
-    text-align: center;
-    color: #fff;
     position: absolute;
     top: 40%;
     left: 50%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.40);
+    border: 2px solid rgb(56, 56, 165);
+    padding: 55px;
+    height: 200px;
+    width: 60%;
+    text-align: center;
     transform: translate(-50%, -50%);
 }
 
@@ -72,6 +76,13 @@ header{
         color: rgb(44, 78, 189);
         /*border-bottom: rgb(35, 98, 193) solid 1px;  */
     }
+    .fa-bars{
+        color: #fff;
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
     .active {
         color:lightblue;
     }
@@ -84,6 +95,15 @@ header{
         }
         .hero-text{
             top: 35%;
+        }
+        .hero-text{
+            padding: 0;
+            height: 40px;;
+        }
+        .hamburger{
+            align-self: flex-end;
+            display: initial;
+            position: absolute;
         }
     }
 

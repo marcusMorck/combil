@@ -1,7 +1,7 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     </head>
@@ -13,12 +13,15 @@
                 </div>
             </a>
             <nav class="main-nav">
-                <a href="#">Hem</a>
-                <a href="#">Butik</a>
-                <a href="#">Service & Reparation</a>
-                <a href="#">Däckservice</a>
-                <a href="#">Bilglas</a>
-                <a href="#">Kontakt</a>
-                <a href="#">Nyhetsblogg</a> 
+                <a href="index.php">Hem</a>
+                <a href="butik.php">Butik</a>
+                <a href="service&reparation.php">Service & Reparation</a>
+                <a href="dackservice.php">Däckservice</a>
+                <a href="bilglas.php">Bilglas</a>
+                <a href="kontakt.php">Kontakt</a>
+                <a href="nyhetsblogg.php">Nyhetsblogg</a> 
             </nav>
+            <div class="hamburger">
+            <i class="fas fa-bars"></i>
+            </div>
         </header>
