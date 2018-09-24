@@ -9,15 +9,16 @@ html {
     position: relative;
     min-height: 100%;
 }
+h1{
+    margin: 0;
+}
 .hero{
     height: 550px;
     width: 100%;
 }
 .hero img{
-    height: 550px;
+    height: 100%;
     width: 100%;
-   
-
 }
 .hero-text{
     position: absolute;
@@ -31,6 +32,33 @@ html {
     width: 60%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+.rep-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rep-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.rep-text{
+ width: 60%;
+}
+.rep-text h2{
+    margin: 0;
+}
+.maintenance-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(33, 107, 198);
+    height: 120px;
+    width: 80px;
 }
 
 /*------------------------------------------------------------------------------
@@ -98,7 +126,7 @@ header{
         }
         .hero-text{
             padding: 0;
-            height: 40px;;
+            height: 40px;
         }
         .hamburger{
             align-self: flex-end;
@@ -110,6 +138,21 @@ header{
 /*-----------------------------------------------------------------------------
 -------------HOME PAGE---------------------------------------------------------
 ------------------------------------------------------------------------------*/
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+-------------SERVICE & REPERATION----------------------------------------------
+------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
 
 /*------------------------------------------------------------------------------------
 -----------------FOOTER---------------------------------------------------------------
