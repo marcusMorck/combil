@@ -16,6 +16,7 @@
         </p>
         </div>
 </div>
+
 <main role="main">
     <section class="rep-section">
         <div class="rep-row">
@@ -64,21 +65,47 @@
         </div>
     </section>
     <section id="contact-service">
-        <h2>
-            Kontaktformulär
-        </h2>
-
+        <div class="contact-info">
+            <h2>
+                Kontaktformulär
+            </h2>
+            <p>
+            Boka gärna tid genom nedanstående kontaktformulär. Ange om det
+            gäller felsökning, service eller reparation. Du kan även komma in på vår verkstad så hjälper vi dig
+            med en tidsbokning eller drop-in.
+            </p>
+        </div>
         <form action="">
-            <label>Namn:</label><input name="name" type="text" />
-            <label>Email</label><input name="email" type="email" />
-            <label>Vad gäller ditt ärende?</label>
-            <select>
-                <option>Förfrågan</option>
-                <option>Felsökning</option>
-                <option>Service</option>
-                <option>Reparation</option>
-            </select>
-            <textarea></textarea>
+            <div class="form-group">
+                <div class="contact-row">
+                    <label>För- och efternamn*</label>
+                    <input name="name" type="text" required/>
+                </div>
+                <div class="contact-row">
+                    <label>Epost*</label>
+                    <input name="email" type="email" required/>
+                </div>
+                <div class="contact-row">
+                    <label>Telefon*</label>
+                    <input name="phone" type="tel" required/>
+                </div>
+                <div class="contact-row">
+                    <label>Registreringsnummer*</label>
+                    <input name="regnr" type="text" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="contact-row">
+                <label>Vad gäller ditt ärende?</label>
+                <select>
+                    <option>Felsökning</option>
+                    <option>Service</option>
+                    <option>Reparation</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea></textarea>
+            </div>
             <input type="submit" value="Skicka meddelandet">
         </form>
     </section>
