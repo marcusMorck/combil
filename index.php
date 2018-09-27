@@ -14,8 +14,6 @@
             läsa mer om vad vi kan hjälpa er med!
         </p>
         </div>
-
-    
 </div>
 
 <?php 
