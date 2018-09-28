@@ -1,4 +1,19 @@
         <footer>
+            <div class="footer-logo">
+                <img src="images/combil-logo.png" />
+            </div>
+            <div class="footer-contact">
+                <p>Tel: 020-2010022000</p>
+                <p>Mejl: info@combil.se</p>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Nyhetsbrev</h3>
+                <form>
+                    <input type="email" placeholder="Din mejl" />
+                    <input type="submit" value="prenumerera" />
+                </form>
+            </div>
+            
             <div class="footer-copyright">
                 <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
             </div>

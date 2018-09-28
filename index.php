@@ -2,7 +2,7 @@
  include "header.php";
 ?>
 <div class="hero">
-    <img src="images/bild08Noplatebc.jpg">
+    <img src="images/bild16Combillogo.jpg" />
     
         <div class="hero-text">
             <h1>

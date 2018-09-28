@@ -1,7 +1,12 @@
 <?php
     include "header.php";
 ?>
-
+<div class="hero">
+    <img src="images/bild-23.jpg" />
+   <div class="hero-text">
+       <h1>Service och reparation</h1>
+   </div>
+</div>
 
 <main role="main">
     <section id="feature-service">
@@ -9,6 +14,7 @@
             <div class="feature-icon">
                 <i class="fas fa-cog fa-4x"></i>
             </div>
+           <!-- <img src="images/bild 26.jpg" />-->
             <div class="feature-text">
                 <h2>
                     Service
@@ -38,7 +44,15 @@
         </div>
         <div class="feature-row">
             <div class="feature-icon">
-
+                <i class="fas fa-check fa-4x"></i>
+            </div>
+            <div class="feature-text">
+                <h2>
+                    Garanti
+                </h2>
+                <p>
+                    All utförd service och samtliga reparationer kommer med garanti för er trygghet.
+                </p>
             </div>
         </div>
     </section>

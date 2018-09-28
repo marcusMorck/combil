@@ -3,8 +3,6 @@
 -----------------------------------------------------------------------------*/
 body{
     margin: 0 0 245px;
-    background-color: rgb(3, 61, 131);
- 
 }
 html {
     font-family: 'Work Sans', sans-serif;
@@ -14,27 +12,34 @@ html {
 h1{
     margin: 0;
 }
-.hero{
-    height: 550px;
-    width: 100%;
-}
-.hero img{
-    height: 100%;
-    width: 100%;
-}
-.hero-text{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    color: #fff;
-    background-color: rgba(0,0,0,0.40);
-    border: 2px solid rgb(56, 56, 165);
-    padding: 55px;
-    height: 200px;
-    width: 60%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
+    /*---------------------------------------------------------------
+    -------------HERO------------------------------------------------
+    ---------------------------------------------------------------*/
+    .hero{
+        position: relative;
+        height: 550px;
+        width: 100%;
+    }
+    .hero img{
+        height: 100%;
+        width: 100%;
+    }
+    .hero-text{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        color: #fff;
+        background-color: rgba(0,0,0,0.40);
+        border: 2px solid rgb(56, 56, 165);
+        padding: 55px;
+        height: 150px;
+        width: 60%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+    .hero-text h1{
+        margin-bottom: 15px;
+    }
 
 
 
@@ -50,18 +55,20 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
+    /*---------------------------------------------------------------------
+    ------------LOGO-------------------------------------------------------
+    ---------------------------------------------------------------------*/
+    .logo{
+        width:  200px;
+        height: 50px;
+        margin-left: 20px; 
+    }
 
-.logo{
-    width:  200px;
-    height: 50px;
-    margin-left: 20px; 
-}
-
-.logo img{
-    display: block;
-    min-width: 100%;
-    max-height: 100%; 
-}
+    .logo img{
+        display: block;
+        min-width: 100%;
+        max-height: 100%; 
+    }
     /*---------------------------------
     ------------MAIN-NAVIGATION--------
     ----------------------------------*/
@@ -110,6 +117,7 @@ header{
             display: initial;
             position: absolute;
         }
+
     }
 
 /*-----------------------------------------------------------------------------
@@ -129,33 +137,42 @@ p{
 /*-----------------------------------------------------------------------------
 -------------SERVICE & REPERATION----------------------------------------------
 ------------------------------------------------------------------------------*/
-#feature-service{
-    display: flex;
-}
 
-.feature-row{
-    border-top: solid #000000 5px;
-    color: #fff;
-    background-color: #0b2b40;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.feature-text{
- 
-}
-.feature-text h2{
-    margin: 0;
-}
-.feature-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background-color: rgb(3, 61, 131);
-    height: 120px;
-    width: 80px;
-}
+    /*----------------------------------------------------------
+    -------------FEATURE----------------------------------------
+    ------------------------------------------------------------*/
+    #feature-service{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 20px 0;
+    }
+
+    .feature-row{
+        align-items: center;
+        display: flex;
+        margin-bottom: 35px; 
+    }
+    .feature-text{
+    width: 90%;
+    }
+    #feature-service img {
+        width: 200px;
+        height: 200px;
+    }
+    .feature-text h2{
+        margin: 0;
+    }
+    .feature-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: rgb(3, 61, 131);
+        height: 100px;
+        width: 120px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }   
     /*---------------------------------------------------------
     ----------CONTACT FORM-------------------------------------
     ---------------------------------------------------------*/
@@ -164,6 +181,9 @@ p{
         flex-direction: column;
         background-color:rgb(0, 37, 82);
         color: #fff;
+        border-radius: 25px;
+        margin-bottom: 20px; 
+        padding: 0 10px;
     }
     #contact-service input{
         font-size: 16px;
@@ -172,7 +192,7 @@ p{
         margin: 5px 0 0 0;
     }
     #contact-service .contact-info{
-        margin-bottom: 30px;
+        margin-bottom: 5px;
     }
     #contact-service .form-row{
         display: flex;
@@ -214,11 +234,26 @@ footer{
     left: 0;
     bottom: 0;
     height: 245px;
-    padding: 0 0 0 0;
     background-color:#000000;
     color: #fff;
     width: 100%;
 }
+.footer-logo{
+    width:  200px;
+    height: 50px;
+    margin-left: 20px; 
+}
+
+.footer-logo img{
+    display: block;
+    min-width: 100%;
+    max-height: 100%; 
+}
+
+.footer-contact{
+
+}
+
 .footer-copyright{
     text-align: center;
     font-size: 10px;
