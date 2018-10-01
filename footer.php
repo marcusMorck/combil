@@ -17,8 +17,25 @@
                         </form>
                     </div>
                 </div>
-            
-                <div class="footer-copyright">
+                <hr>
+                <div class="footer-row">
+                    <div id="footer-links">
+                        <a href="#">Hem</a>
+                        <a href="#">Butik</a>
+                        <a href="#">Service & Reparation</a>
+                        <a href="#">Däckservice</a>
+                        <a href="#">Bilglas</a>
+                        <a href="#">Kontakt</a>
+                        <a href="#">Nyhetsblogg</a>
+                    </div>
+                    <div id="footer-social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+                <div id="footer-copyright">
                     <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
                 </div>
             </div>
