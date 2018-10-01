@@ -1,21 +1,26 @@
         <footer>
-            <div class="footer-logo">
-                <img src="images/combil-logo.png" />
-            </div>
-            <div class="footer-contact">
-                <p>Tel: 020-2010022000</p>
-                <p>Mejl: info@combil.se</p>
-            </div>
-            <div class="footer-newsletter">
-                <h3>Nyhetsbrev</h3>
-                <form>
-                    <input type="email" placeholder="Din mejl" />
-                    <input type="submit" value="prenumerera" />
-                </form>
-            </div>
+            <div id="footer-container">
+                <div class="footer-row">
+                    <div class="footer-logo">
+                        <img src="images/combil-logo.png" />
+                    </div>
+                    <div id="footer-contact">
+                        <h3>Kontakt</h3>
+                        <p>Tel: <a href="tel:020-2010022000">020-2010022000</a></p>
+                        <p>Mejl: info@combil.se</p>
+                    </div>
+                    <div id="footer-newsletter">
+                        <h3>Nyhetsbrev</h3>
+                        <form>
+                            <input type="email" placeholder="Din mejl" />
+                            <input type="submit" value="prenumerera" class="btn"/>
+                        </form>
+                    </div>
+                </div>
             
-            <div class="footer-copyright">
-                <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
+                <div class="footer-copyright">
+                    <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
+                </div>
             </div>
         </footer>
     </body>
