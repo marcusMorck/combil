@@ -2,12 +2,14 @@
 -----------------GLOBAL--------------------------------------------------------
 -----------------------------------------------------------------------------*/
 body{
-    margin: 0 0 300px;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }
 html {
     font-family: 'Work Sans', sans-serif;
-    position: relative;
-    min-height: 100%;
+
 }
 h1{
     margin: 0;
@@ -47,6 +49,7 @@ h1{
 ------------------HEADER--------------------------------------------------------
 ------------------------------------------------------------------------------*/
 header{
+    flex: none;
     background-color: #000000;
     height: 95px;
     width: 100%;
@@ -117,6 +120,17 @@ header{
             display: initial;
             position: absolute;
         }
+    .footer-row{
+        /*flex-direction: column;*/
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #footer-logo{
+        margin: 0 0 20px 0;
+        align-self: center;
+        
+    }
 
     }
 
@@ -125,6 +139,8 @@ header{
 ------------------------------------------------------------------------------*/
 
 main{
+    
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     padding: 0 45px;
@@ -230,10 +246,8 @@ hr{
 -----------------FOOTER---------------------------------------------------------------
 ------------------------------------------------------------------------------------*/
 footer{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 300px;
+    flex: none;
+    height: auto;
     width: 100%;
     background-color:#000129;
     color: #fff;
@@ -243,7 +257,13 @@ footer h3{
 }
 #footer-container{
     padding: 20px;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 .footer-row{
    /* display: flex;
@@ -252,25 +272,32 @@ footer h3{
    
     flex: 1 1 auto;*/
     display: flex;
+    flex: 0 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
+
     /*---------------------------------------------------------
     --------FOOTER LOGO----------------------------------------
     ---------------------------------------------------------*/
-    .footer-logo{
-        width:  200px;
+    #footer-logo{
+        width:  230px;
         height: 50px;
+        display: flex;
+        /*flex: 0;*/
     }
-    .footer-logo img{
+    #footer-logo img{
         display: block;
         min-width: 100%;
-        max-height: 100%;
-        margin-left: 20px;  
+        max-height: 100%;  
     }
     /*---------------------------------------------------
     --------FOOTER NEWSLETTER----------------------------
     ---------------------------------------------------*/
+    #footer-newsletter{
+        /*flex: 1;*/
+    }
     #footer-newsletter,
     #footer-newsletter form
     {
@@ -300,9 +327,8 @@ footer h3{
     /*---------------------------------------------------
     --------FOOTER CONTACT-------------------------------
     ---------------------------------------------------*/
-    #footer-contact a{
-        color: #fff;
-        text-decoration: none;
+    #footer-contact{
+        /*flex: 1;*/
     }
     #footer-contact p{
         margin: 0 0 5px 0;
@@ -311,17 +337,24 @@ footer h3{
     /*---------------------------------------------------
     --------FOOTER LINKS---------------------------------
     ---------------------------------------------------*/
-    #footer-links{
-        
-   
+    #footer-links a,
+    #footer-social .fab{
+        margin-right: 10px; 
+    }
+    #footer-links a:last-child,
+    #footer-social .fab:last-child{
+        margin-right: 0px; 
     }
     #footer-social{
-        
+        display: flex;
+        flex-wrap: wrap;
+
     }
     #footer-links a{
         color: #fff;
         text-decoration: none;
     }
+
 
     /*---------------------------------------------------
     --------FOOTER COPYRIGHT-----------------------------
@@ -330,4 +363,11 @@ footer h3{
         text-align: center;
         font-size: 10px;
         padding: 15px;
+    }
+    .karta{
+        width: 100%;
+    }
+    .karta img{
+        height: 400px;
+        width: 100%;
     }

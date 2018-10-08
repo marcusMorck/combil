@@ -1,7 +1,7 @@
         <footer>
             <div id="footer-container">
                 <div class="footer-row">
-                    <div class="footer-logo">
+                    <div id="footer-logo">
                         <img src="images/combil-logo.png" />
                     </div>
                     <div id="footer-contact">
