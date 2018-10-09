@@ -414,3 +414,22 @@ footer a{
         height: 300px;
         width: 100%;
     }
+
+/*------------------------------------------------------------------------------------
+-----------------News Blogg Page------------------------------------------------------
+------------------------------------------------------------------------------------*/
+#newsblog{
+    padding: 40px;
+}
+#newsblog .post{
+    display: flex;
+    margin-bottom: 40px;
+}
+#newsblog .post .post-img{
+    width: 400px;
+    height: 200px;
+}
+#newsblog .post .post-img img{
+    width: 400px;
+    height: 200px;
+}
