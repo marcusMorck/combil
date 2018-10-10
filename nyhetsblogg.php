@@ -35,7 +35,7 @@
                 </p>
             </div>
             <div class="post-img">
-                <img src="images/bild 26.jpg" width="400px" height="200px"/>
+                <img src="images/bild 36.jpg" />
             </div>
         </div>
     </section>
