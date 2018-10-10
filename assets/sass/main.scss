@@ -1,9 +1,56 @@
 
-@import 'partials/newsblog';
-@import 'partials/hero';
+/*-------------------------------------
+--------------PAGES--------------------
+-------------------------------------*/
+@import 'pages/serviceochreperation';
+@import 'pages/nyhetsblogg';
+@import 'pages/kontakt';
 
 
 
+/*-------------------------------------
+--------------COMPONENTS---------------
+-------------------------------------*/
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/hero';
+
+/*-------------------------------------
+--------------LAYOUT-------------------
+-------------------------------------*/
+@import 'layout/header';
+@import 'layout/footer';
+
+/*-------------------------------------
+--------------GENERAL------------------
+-------------------------------------*/
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: #fff;
+}
+html {
+   /* font-family: 'Work Sans', sans-serif;*/
+   font-family: 'Roboto', sans-serif;
+
+}
+h1{
+    margin: 0;
+}
+
+main{
+    /*background: linear-gradient(to bottom, #000129 0%, #3366cc 100%);*/
+    background: linear-gradient(to bottom, #000129 0%, #003399 100%);
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 0;
+}
 
 
  

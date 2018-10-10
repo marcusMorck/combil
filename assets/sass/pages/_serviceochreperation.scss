@@ -1,0 +1,38 @@
+#feature-service{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .feature-row{
+        align-items: center;
+        display: flex;
+        margin-bottom: 35px;
+        .feature-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-color: rgb(3, 61, 131);
+            height: 100px;
+            width: 120px;
+            border-radius: 10px;
+            margin-right: 10px;
+        }  
+        .feature-text{
+            width: 90%;
+
+            .feature-text h2{
+                margin: 0;
+            }
+        } 
+    }
+}
+
+
+
+
+

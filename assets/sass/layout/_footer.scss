@@ -1,0 +1,122 @@
+footer{
+    flex: none;
+    height: auto;
+    width: 100%;
+    background-color:#000129;
+    color: #fff;
+    
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #footer-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        .footer-row{
+            display: flex;
+            flex: 0 0 auto;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+        }
+        #footer-logo{
+            width:  230px;
+            height: 50px;
+            display: flex;
+            /*flex: 0;*/
+        }
+        #footer-logo img{
+            display: block;
+            min-width: 100%;
+            max-height: 100%;  
+        }
+        
+        h3{
+            margin: 0 0 25px 0;
+        }
+
+    }
+}
+
+
+
+
+
+    /*---------------------------------------------------------
+    --------FOOTER LOGO----------------------------------------
+    ---------------------------------------------------------*/
+ 
+    /*---------------------------------------------------
+    --------FOOTER NEWSLETTER----------------------------
+    ---------------------------------------------------*/
+    #footer-newsletter{
+        /*flex: 1;*/
+    }
+    #footer-newsletter,
+    #footer-newsletter form
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #footer-newsletter input[type="email"],
+    #footer-newsletter input[type="submit"]{
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    #footer-newsletter input[type="email"]{
+        width: 200px;
+        margin-bottom: 10px;
+        border: 1px solid #fff;
+        background-color:#000129;
+        color: #fff;
+    }
+    #footer-newsletter input[type="email"]::placeholder{
+        color: #fff;
+    }
+    #footer-newsletter input[type="submit"]{
+        width: 100px;
+        
+    }
+    /*---------------------------------------------------
+    --------FOOTER CONTACT-------------------------------
+    ---------------------------------------------------*/
+    #footer-contact{
+        /*flex: 1;*/
+    }
+    #footer-contact p{
+        margin: 0 0 5px 0;
+    }
+
+    /*---------------------------------------------------
+    --------FOOTER LINKS---------------------------------
+    ---------------------------------------------------*/
+    #footer-links a,
+    #footer-social .fab{
+        margin-right: 10px; 
+    }
+    #footer-links a:last-child,
+    #footer-social .fab:last-child{
+        margin-right: 0px; 
+    }
+    #footer-social{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #footer-links a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    /*---------------------------------------------------
+    --------FOOTER COPYRIGHT-----------------------------
+    ---------------------------------------------------*/
+    #footer-copyright{
+        text-align: center;
+        font-size: 10px;
+        padding: 15px;
+    }
