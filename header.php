@@ -13,19 +13,19 @@
     </head>
     <body>
         <header>
-            <a href="index.php">
+            <a href="/">
                 <div class="logo">
                     <img src="images/combil-logo.png" />
                 </div>
             </a>
             <nav class="main-nav">
-                <a href="index.php">Hem</a>
-                <a href="butik.php">Butik</a>
-                <a href="service&reparation.php">Service & Reparation</a>
-                <a href="dackservice.php">Däckservice</a>
-                <a href="bilglas.php">Bilglas</a>
-                <a href="kontakt.php">Kontakt</a>
-                <a href="nyhetsblogg.php">Nyhetsblogg</a> 
+                <a href="/">Hem</a>
+                <a href="/butik">Butik</a>
+                <a href="/service&reparation">Service & Reparation</a>
+                <a href="/dackservice">Däckservice</a>
+                <a href="/bilglas">Bilglas</a>
+                <a href="/kontakt">Kontakt</a>
+                <a href="/nyhetsblogg">Nyhetsblogg</a> 
             </nav>
             <div class="hamburger">
             <i class="fas fa-bars"></i>
