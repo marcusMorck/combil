@@ -1,4 +1,22 @@
 /*-------------------------------------
+--------------BASE---------------------
+-------------------------------------*/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body h1, body h2, body h3, body h4, body p, html h1, html h2, html h3, html h4, html p {
+  margin: 0;
+}
+body ul, html ul {
+  margin: 0;
+  padding: 0;
+}
+body ul li, html ul li {
+  margin: 0px;
+}
+
+/*-------------------------------------
 --------------PAGES--------------------
 -------------------------------------*/
 #feature-service {
@@ -107,33 +125,27 @@
 }
 
 #contact {
-  padding: 40px;
+  padding: 20px 40px 40px 40px;
 }
-
 #contact h2 {
   margin: 0 0 5px 0;
 }
-
 #contact h4 {
   margin: 20px 0 10px 0;
 }
-
 #contact p {
   margin-top: 2px;
 }
-
 #contact .contact-info {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-.contact-intro {
+#contact .contact-intro {
   width: 100%;
   margin-bottom: 20px;
 }
-
-.contact-info-row {
+#contact .contact-info-row {
   padding: 10px;
   margin-top: 10px;
   width: 250px;
@@ -199,7 +211,7 @@
 
 .hero {
   position: relative;
-  height: 550px;
+  height: 540px;
   width: 100%;
 }
 .hero img {
@@ -363,7 +375,6 @@ footer #footer-container h3 {
 --------------GENERAL------------------
 -------------------------------------*/
 body {
-  margin: 0;
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -375,20 +386,12 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
-  margin: 0;
-}
-
 main {
   /*background: linear-gradient(to bottom, #000129 0%, #3366cc 100%);*/
   background: linear-gradient(to bottom, #000129 0%, #003399 100%);
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
-}
-
-p {
-  margin: 0;
 }
 
 /*# sourceMappingURL=general.css.map */

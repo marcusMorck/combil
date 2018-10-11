@@ -1,3 +1,9 @@
+/*-------------------------------------
+--------------BASE---------------------
+-------------------------------------*/
+@import 'base/reset';
+
+
 
 /*-------------------------------------
 --------------PAGES--------------------
@@ -26,7 +32,7 @@
 -------------------------------------*/
 
 body{
-    margin: 0;
+
     display: flex;
     height: 100%;
     flex-direction: column;
@@ -37,9 +43,7 @@ html {
    font-family: 'Roboto', sans-serif;
 
 }
-h1{
-    margin: 0;
-}
+
 
 main{
     /*background: linear-gradient(to bottom, #000129 0%, #3366cc 100%);*/
@@ -48,9 +52,7 @@ main{
     display: flex;
     flex-direction: column;
 }
-p{
-    margin: 0;
-}
+
 
 
  
