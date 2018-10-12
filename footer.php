@@ -1,42 +1,33 @@
         <footer>
-            <div id="footer-container">
-                <div class="footer-row">
-                    <div id="footer-logo">
-                        <img src="images/combil-logo.png" />
-                    </div>
-                    <div id="footer-contact">
-                        <h3>Kontakt</h3>
-                        <p>Tel: <a href="tel:020-2010022000">020-2010022000</a></p>
-                        <p>Mejl: info@combil.se</p>
-                    </div>
-                    <div id="footer-newsletter">
-                        <h3>Nyhetsbrev</h3>
-                        <form>
-                            <input type="email" placeholder="Din mejl" />
-                            <input type="submit" value="prenumerera" class="btn"/>
-                        </form>
-                    </div>
+            <div class="footer-container">
+                <div class="logo">
+                    <img src="images/combil-logo.png" />
                 </div>
-                <hr>
-                <div class="footer-row">
-                    <div id="footer-links">
-                        <a href="#">Hem</a>
-                        <a href="#">Butik</a>
-                        <a href="#">Service & Reparation</a>
-                        <a href="#">Däckservice</a>
-                        <a href="#">Bilglas</a>
-                        <a href="#">Kontakt</a>
-                        <a href="#">Nyhetsblogg</a>
-                    </div>
-                    <div id="footer-social">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-twitter"></i>
-                    </div>
+                <div>
+                    <a href="/">Hem</a>
+                    <a href="/butik">Butik</a>
+                    <a href="/service&reparation">Service & Reparation</a>
+                    <a href="/dackservice">Däckservice</a>
+                    <a href="/bilglas">Bilglas</a>
+                    <a href="/kontakt">Kontakt</a>
+                    <a href="/nyhetsblogg">Nyhetsblogg</a> 
                 </div>
-                <div id="footer-copyright">
-                    <p class="copyright">COPYRIGHT &copy; <?php echo date("Y"); ?> Marcus Morck. All Rights Reserved.</p>
+                <div>
+                    <h4>Kontakta oss</h4>
+                    <p><i class="far fa-envelope"></i>info@combil.se</p>
+                    <p><i class="fas fa-phone-square"></i>020-23 23 23</p>
+                    <p><i class="fas fa-map-marker-alt"></i>Göteborgsgatan 2, 212 20 Göteborg</p>
+                </div>
+                <div>
+                    <h4>Följ oss</h4>
+                    <i class="fab fa-instagram fa-lg"></i>
+                    <i class="fab fa-twitter fa-lg"></i>
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                    <i class="fas fa-rss fa-lg"></i>
+                    <i class="fab fa-youtube fa-lg"></i>
+                </div>
+                <div class="copyright">
+                    <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?></p>
                 </div>
             </div>
         </footer>
