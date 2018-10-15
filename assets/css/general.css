@@ -358,7 +358,11 @@ footer .footer-container .footer-links {
   display: flex;
   flex-direction: column;
 }
-footer .footer-container .copyright {
+footer .footer-container div:first-child {
+  border: none;
+  padding: 0;
+}
+footer .copyright {
   display: flex;
   align-content: center;
   justify-content: center;
@@ -367,16 +371,9 @@ footer .footer-container .copyright {
   margin-top: 40px;
   background-color: #00033a;
 }
-footer .footer-container .copyright p {
+footer .copyright p {
   font-size: 10px;
   margin: 0;
-}
-footer .footer-container div:first-child {
-  border: none;
-  padding: 0;
-}
-footer .footer-container div:last-child {
-  border-left: none;
 }
 
 /*-------------------------------------

@@ -26,9 +26,9 @@
                     <a href="#"><i class="fas fa-rss fa-lg"></i></a>
                     <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
                 </div>
-                <div class="copyright">
+            </div>
+            <div class="copyright">
                     <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?> --- All rights reserved.</p>
-                </div>
             </div>
         </footer>
     </body>
