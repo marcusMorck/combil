@@ -2,10 +2,14 @@
  include "header.php";
 
 ?>
-<div class="hero">
-    <img src="images/bild16Combillogo.jpg" />
+<div class="hero index">
+    <div class="overlay">
+    <h1 class="hero-title">Välkommen till Combil</h1>
+ 
+    </div>
+
     
-        <div class="hero-text">
+        <!--<div class="hero-text">
             <h1>
                 Välkommen till Combil verkstad och butik!
             </h1>
@@ -14,7 +18,7 @@
             även lämna din bil i trygga händer för både service och reparationer. Följ länkarna här ovan för att
             läsa mer om vad vi kan hjälpa er med!
         </p>
-        </div>
+        </div>-->
 </div>
 
 <?php 

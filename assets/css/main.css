@@ -201,9 +201,9 @@ p{
         flex-direction: column;
         background-color:rgb(0, 37, 82);
         color: #fff;
-        border-radius: 25px;
+        border-radius: 25px; 
         margin-bottom: 20px; 
-        padding: 0 10px;
+        padding: 0 10px; 
     }
     #contact-service input{
         font-size: 16px;

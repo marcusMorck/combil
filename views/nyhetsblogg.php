@@ -1,10 +1,9 @@
 <?php
     include "header.php";
 ?>
-<div class="hero">
-    <img src="images/bild 15.jpg" />
-    <div class="hero-text">
-        <h1>Nyhetsblogg</h1>
+<div class="hero newsblog">
+    <div class="overlay">
+        <h1 class="hero-title">Nyhetsblogg</h1>
     </div>
 </div>
 <main role="main">

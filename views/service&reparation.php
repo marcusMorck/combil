@@ -1,11 +1,11 @@
 <?php
     include "header.php";
 ?>
-<div class="hero">
-    <img src="images/bild-23.jpg" />
-   <div class="hero-text">
-       <h1>Service och reparation</h1>
-   </div>
+<div class="hero service">
+
+    <div class="overlay">
+       <h1 class="hero-title">Service och reparation</h1>
+    </div>
 </div>
 
 <main role="main">

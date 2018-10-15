@@ -1,12 +1,13 @@
 <?php
     include "header.php";
 ?>
-<div class="hero">
-    <img src="images/bild 261.jpg" />
-    <div class="hero-text">
-        <h1>Kontakt</h1>
+
+    <div class="hero contact">
+        <div class="overlay">
+            <h1 class="hero-title">Kontakt</h1>
+        </div>
+    
     </div>
-</div>
 <main role="main">
     <section id="contact">
         <div class="contact-intro">

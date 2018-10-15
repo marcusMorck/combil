@@ -208,32 +208,98 @@ body ul li, html ul li {
   color: lightblue;
 }
 
-.hero {
-  position: relative;
-  height: 540px;
-  width: 100%;
-}
-.hero img {
-  height: 100%;
-  width: 100%;
-}
-.hero .hero-text {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 2px solid #3838a5;
-  padding: 55px;
-  height: 150px;
-  width: 60%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.hero .hero-text h1 {
-  margin-bottom: 15px;
+.index {
+  background: url("/images/Bild16Combillogo.jpg") center center no-repeat;
 }
 
+.contact {
+  background: url("/images/Bild 261.jpg") center center no-repeat;
+}
+
+.shop {
+  background: url("/images/Bild 15.jpg") center center no-repeat;
+}
+
+.service {
+  background: url("/images/Bild 23.png") center center no-repeat;
+}
+
+.wheelservice {
+  background: url("/images/Bild 27.jpg") center center no-repeat;
+}
+
+.carglas {
+  background: url("/images/Bild 33.jpg") center center no-repeat;
+}
+
+.newsblog {
+  background: url("/images/Bild08Noplatebc.jpg") center center no-repeat;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-size: cover;
+}
+.hero .overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 32em;
+  height: 30vh;
+  border: 1px solid #0559a2;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hero .hero-title {
+  color: #fff;
+  max-width: 20em;
+  font-size: 6vh;
+  line-height: 0.9;
+}
+.hero .hero-text {
+  color: #fff;
+  font-size: 2vh;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 32em) {
+  .hero-title {
+    font-size: 16vh;
+  }
+}
+/*.hero{
+    position: relative;
+    height: 540px;
+    width: 100%;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .hero-text{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        color: #fff;
+        background-color: rgba(0,0,0,0.40);
+        border: 2px solid rgb(56, 56, 165);
+        padding: 55px;
+
+
+        text-align: center;
+        transform: translate(-50%, -50%);
+        h1{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+*/
 /*-------------------------------------
 --------------LAYOUT-------------------
 -------------------------------------*/
@@ -317,10 +383,10 @@ footer .footer-container div:last-child {
 --------------GENERAL------------------
 -------------------------------------*/
 body {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  color: #fff;
+  /* display: flex;
+   height: 100%;
+   flex-direction: column;
+   color: #fff;*/
 }
 
 html {
