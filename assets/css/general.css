@@ -168,7 +168,6 @@ body ul li, html ul li {
 .logo {
   width: 200px;
   height: 50px;
-  margin-left: 20px;
 }
 
 .logo img {
@@ -259,17 +258,52 @@ footer {
   color: #fff;
 }
 footer .footer-container {
-  padding: 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 40px 20px 0 20px;
+}
+footer .footer-container div {
+  width: 200px;
+  border-left: 1px #0059a7 solid;
+  padding-left: 20px;
+}
+footer .footer-container div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer .footer-container div a:hover {
+  color: #4668bf;
+}
+footer .footer-container div h4 {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+footer .footer-container div p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+footer .footer-container div i {
+  margin-right: 10px;
+}
+footer .footer-container .footer-links {
+  display: flex;
+  flex-direction: column;
 }
 footer .footer-container .copyright {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   width: 100%;
-  text-align: center;
-  border-top: solid 1px #fff;
-  padding: 10px;
-  margin: 40px;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #00033a;
+}
+footer .footer-container .copyright p {
+  font-size: 10px;
+  margin: 0;
 }
 footer .footer-container div:first-child {
   border: none;
@@ -277,26 +311,6 @@ footer .footer-container div:first-child {
 }
 footer .footer-container div:last-child {
   border-left: none;
-}
-footer .footer-container div {
-  width: 200px;
-  border-left: 1px #0059a7 solid;
-  padding-left: 15px;
-}
-footer .footer-container div i {
-  margin-right: 10px;
-}
-footer .footer-container div a {
-  color: #fff;
-  text-decoration: none;
-  display: flex;
-  margin-bottom: 10px;
-}
-footer .footer-container div h4 {
-  margin-bottom: 10px;
-}
-footer .footer-container div p {
-  margin-bottom: 10px;
 }
 
 /*-------------------------------------

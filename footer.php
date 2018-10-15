@@ -3,7 +3,7 @@
                 <div class="logo">
                     <img src="images/combil-logo.png" />
                 </div>
-                <div>
+                <div class="footer-links">
                     <a href="/">Hem</a>
                     <a href="/butik">Butik</a>
                     <a href="/service&reparation">Service & Reparation</a>
@@ -20,14 +20,14 @@
                 </div>
                 <div>
                     <h4>Följ oss</h4>
-                    <i class="fab fa-instagram fa-lg"></i>
-                    <i class="fab fa-twitter fa-lg"></i>
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                    <i class="fas fa-rss fa-lg"></i>
-                    <i class="fab fa-youtube fa-lg"></i>
+                    <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                    <a href="#"><i class="fas fa-rss fa-lg"></i></a>
+                    <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
                 </div>
                 <div class="copyright">
-                    <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?></p>
+                    <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?> --- All rights reserved.</p>
                 </div>
             </div>
         </footer>
