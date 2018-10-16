@@ -12,13 +12,13 @@
                     <a href="/kontakt">Kontakt</a>
                     <a href="/nyhetsblogg">Nyhetsblogg</a> 
                 </div>
-                <div>
+                <div class="footer-contact">
                     <h4>Kontakta oss</h4>
                     <p><i class="far fa-envelope"></i>info@combil.se</p>
                     <p><i class="fas fa-phone-square"></i>020-23 23 23</p>
                     <p><i class="fas fa-map-marker-alt"></i>Göteborgsgatan 2, 212 20 Göteborg</p>
                 </div>
-                <div>
+                <div class="footer-social">
                     <h4>Följ oss</h4>
                     <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
                     <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
