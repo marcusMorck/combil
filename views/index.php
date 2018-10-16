@@ -4,7 +4,7 @@
 ?>
 <div class="hero index">
     <div class="overlay">
-    <h1 class="hero-title">Välkommen till Combil</h1>
+    <h1 class="hero-title">Välkommen till Combil!</h1>
  
     </div>
 
