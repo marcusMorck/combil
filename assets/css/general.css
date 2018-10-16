@@ -175,7 +175,7 @@ body ul li, html ul li {
 }
 
 .main-nav {
-  padding: 16px;
+  padding: 16px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -302,7 +302,6 @@ body ul li, html ul li {
 --------------LAYOUT-------------------
 -------------------------------------*/
 header {
-  flex: none;
   /*background-color: #000000;*/
   background: linear-gradient(to bottom, #000000 0%, #000129 100%);
   height: 100px;
@@ -313,7 +312,39 @@ header {
   flex-wrap: wrap;
   font-family: "Work Sans", sans-serif;
 }
+header .logo {
+  padding-left: 20px;
+}
 
+@media screen and (max-width: 1000px) {
+  header .logo {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 980px) {
+  header a {
+    order: 3;
+  }
+  header .main-nav {
+    margin-top: 200px;
+    display: none;
+    order: 2;
+    background-color: #000129;
+    padding: 0px;
+  }
+  header .main-nav a {
+    padding: 14px 16px;
+    border-bottom: solid 1px #0059a7;
+  }
+  header .main-nav a:last-child {
+    border: none;
+  }
+  header .hamburger {
+    order: 1;
+    display: flex;
+    padding-left: 20px;
+  }
+}
 footer {
   display: flex;
   justify-content: center;
@@ -383,8 +414,14 @@ footer .copyright p {
     align-items: center;
     margin-bottom: 10px;
   }
+  footer .footer-container .footer-links {
+    width: 80%;
+  }
   footer .footer-container .footer-social {
     text-align: center;
+  }
+  footer .footer-container .footer-contact {
+    width: 60%;
   }
   footer .footer-container .footer-contact i {
     margin-right: 25px;
@@ -412,10 +449,11 @@ footer .copyright p {
 --------------GENERAL------------------
 -------------------------------------*/
 body {
+  color: #fff;
   /* display: flex;
    height: 100%;
    flex-direction: column;
-   color: #fff;*/
+   */
 }
 
 html {

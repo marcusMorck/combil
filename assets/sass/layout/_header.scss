@@ -1,5 +1,5 @@
 header{
-    flex: none;
+    
     /*background-color: #000000;*/
     background: linear-gradient(to bottom, #000000 0%, #000129 100%);
     height: 100px;
@@ -9,4 +9,41 @@ header{
     align-items: center;
     flex-wrap: wrap;
     font-family: 'Work Sans', sans-serif;
+    .logo{
+        padding-left: 20px;
+    }
+} 
+@media screen and(max-width:1000px){
+    header{
+        .logo{
+            padding: 0;
+        }
+    }
+}
+@media screen and(max-width:980px){
+    header{
+        
+        a{
+            order: 3;
+        }
+        .main-nav{
+            margin-top: 200px; 
+            display: none;
+            order: 2;
+            background-color: #000129;
+            padding: 0px;
+            a{
+                padding: 14px 16px;
+                border-bottom: solid 1px #0059a7;
+            }
+            a:last-child{
+                border: none;
+            }
+        }
+        .hamburger{
+            order: 1;
+            display: flex;
+            padding-left: 20px;
+        }
+    }
 }

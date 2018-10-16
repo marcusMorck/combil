@@ -71,15 +71,21 @@ footer{
             flex-direction: column;
              align-items: center;
              margin-bottom: 10px;
+             .footer-links{
+                width: 80%;
+             }
              .footer-social{
                 text-align: center;
+                
              }
              .footer-contact {
+                width: 60%;
                 i {
                     margin-right: 25px;
                 }
              }
              div{
+                 
                  padding-bottom: 10px;
                  margin-bottom: 10px;
                  align-items: center;
