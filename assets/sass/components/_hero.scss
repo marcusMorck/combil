@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 65vh;
     background-size: cover;
     
     .overlay{
@@ -58,31 +58,3 @@
         font-size: 16vh;
     }
 }
-/*.hero{
-    position: relative;
-    height: 540px;
-    width: 100%;
-    img{
-        height: 100%;
-        width: 100%;
-    }
-    .hero-text{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        color: #fff;
-        background-color: rgba(0,0,0,0.40);
-        border: 2px solid rgb(56, 56, 165);
-        padding: 55px;
-        
-        
-        text-align: center;
-        transform: translate(-50%, -50%);
-        h1{
-            margin-bottom: 15px;
-        }
-    }
-}
-
-
-*/

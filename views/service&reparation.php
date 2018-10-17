@@ -9,6 +9,14 @@
 </div>
 
 <main role="main">
+    <section class="intro">
+        <h2>Vi utför service och reparationer</h2>
+
+        <p>Här på combil tar vi hand om din bil och ser till att den mår så bra som möjligt!
+            Vi utför service och reperationer på nya bilar men även på bilar som har några år på nacken.
+            Tveka inte att hör av dig och boka service eller reperation. Arbetet genomförs självklart med garanti!
+        </p>
+    </section>
     <section id="feature-service">
         <div class="feature-row">
             <div class="feature-icon">

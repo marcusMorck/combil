@@ -7,10 +7,14 @@
     </div>
 </div>
 <main role="main">
-<p>
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxs
-</p>
+    <section class="intro">
+        <h2>Vi byter dina däck!</h2>
+
+        <p>
+            På Combil utför vi däckbyten på alla sorters bilar. Ingen bil är för liten eller för
+            stor.
+        </p>
+    </section>
 </main>
 <?php
     include "footer.php";
