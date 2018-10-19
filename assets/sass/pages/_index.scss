@@ -1,6 +1,6 @@
 #home-boking{
     border-top: 20px solid rgb(13, 92, 152); 
-    border-bottom: 20px solid rgb(13, 92, 152);
+    border-bottom: 10px solid rgb(13, 92, 152);
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
@@ -34,6 +34,22 @@
 }
 
 #opening-hours{
+    border-top: 1px solid rgb(13, 92, 152);
+    padding: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    div{
+        height: 120px;
+        width: 220px; 
+        h4{
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 5px;
+        }
+    }
+
 
 }
 
@@ -53,6 +69,26 @@
         justify-content: center; 
         text-align: center;
     }
+}
 
- 
+@media screen and (max-width:865px){
+  
+    #opening-hours{
+        text-align: center;
+        h3{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        h4{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:740px){
+  
+    #opening-hours{
+        justify-content: space-evenly;
+    }
 }

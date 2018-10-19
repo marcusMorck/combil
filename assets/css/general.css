@@ -21,7 +21,7 @@ body ul li, html ul li {
 -------------------------------------*/
 #home-boking {
   border-top: 20px solid #0d5c98;
-  border-bottom: 20px solid #0d5c98;
+  border-bottom: 10px solid #0d5c98;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -53,6 +53,24 @@ body ul li, html ul li {
   margin-bottom: 10px;
 }
 
+#opening-hours {
+  border-top: 1px solid #0d5c98;
+  padding: 20px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#opening-hours div {
+  height: 120px;
+  width: 220px;
+}
+#opening-hours div h4 {
+  margin-bottom: 10px;
+}
+#opening-hours div p {
+  margin-bottom: 5px;
+}
+
 @media screen and (max-width: 960px) {
   #home-boking {
     justify-content: space-evenly;
@@ -67,6 +85,24 @@ body ul li, html ul li {
   #home-boking {
     justify-content: center;
     text-align: center;
+  }
+}
+@media screen and (max-width: 865px) {
+  #opening-hours {
+    text-align: center;
+  }
+  #opening-hours h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #opening-hours h4 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 740px) {
+  #opening-hours {
+    justify-content: space-evenly;
   }
 }
 #feature-service {
@@ -495,7 +531,7 @@ main {
   flex-direction: column;
 }
 main .intro {
-  padding: 40px;
+  padding: 30px 40px 20px 40px;
 }
 
 /*# sourceMappingURL=general.css.map */
