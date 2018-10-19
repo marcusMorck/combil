@@ -8,6 +8,7 @@
 /*-------------------------------------
 --------------PAGES--------------------
 -------------------------------------*/
+@import 'pages/index';
 @import 'pages/serviceochreperation';
 @import 'pages/nyhetsblogg';
 @import 'pages/kontakt';
@@ -53,10 +54,11 @@ main{
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    .intro{
+        padding: 40px;
+    }
 }
-section{
-    padding: 60px 40px 20px 40px; 
-}
+
 
 
 
