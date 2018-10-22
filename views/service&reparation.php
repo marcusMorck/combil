@@ -10,7 +10,7 @@
 
 <main role="main">
     <section class="intro">
-        <h2>Vi utför service och reparationer</h2>
+        <h2>Vi utför service och reparationer</h2> 
 
         <p>Här på combil tar vi hand om din bil och ser till att den mår så bra som möjligt!
             Vi utför service och reperationer på nya bilar men även på bilar som har några år på nacken.
@@ -18,7 +18,38 @@
         </p>
     </section>
     <section id="feature-service">
-        <div class="feature-row">
+        <div>
+            <div class="feature-icon">
+                <img src="/images/service-icon.png" />
+            </div>
+            <h2>Service</h2>
+            <p>Regelbunden bilservice förlänger din bils livslängd och
+                ger dig ett mer problemfritt bilägande. Vi erbjuder ett komplett servicepaket för er bil, både inför
+                sommarens resor och inför vintervägens utmaningar.
+            </p>
+        </div>
+        <div>
+            <div class="feature-icon">
+                <img src="/images/repair-icon.png" />
+            </div>
+            <h2>Reparationer</h2>
+            <p>
+                Högteknologisaka bilar med den senaste utrustningen ställer även höga krav
+                på bilverkstadens teknologi och kunnande. Vi kan erbjuda er en certifierad och kunnig verkstad som
+                tar hand om alla era reparationsbehov, oavsett om det gäller högteknologiska komponenter eller
+                mekanisk reparation. 
+            </p>
+        </div>
+        <div> 
+            <div class="feature-icon">
+                <img src="/images/ok-icon.png" />
+            </div>
+            <h2>Garanti</h2>
+            <p>
+                All utförd service och samtliga reparationer kommer med garanti för er trygghet.
+            </p>
+        </div>
+        <!--<div class="feature-row">
             <div class="feature-icon">
                 <i class="fas fa-cog fa-4x"></i>
             </div>
@@ -61,7 +92,7 @@
                     All utförd service och samtliga reparationer kommer med garanti för er trygghet.
                 </p>
             </div>
-        </div>
+        </div>-->
     </section>
     <section id="contact-service">
         <div class="contact-info">
