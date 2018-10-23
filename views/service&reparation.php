@@ -49,50 +49,6 @@
                 All utförd service och samtliga reparationer kommer med garanti för er trygghet.
             </p>
         </div>
-        <!--<div class="feature-row">
-            <div class="feature-icon">
-                <i class="fas fa-cog fa-4x"></i>
-            </div>
-            <div class="feature-text">
-                <h2>
-                    Service
-                </h2>
-                <p>
-                    Regelbunden bilservice förlänger din bils livslängd och
-                    ger dig ett mer problemfritt bilägande. Vi erbjuder ett komplett servicepaket för er bil, både inför
-                    sommarens resor och inför vintervägens utmaningar.
-                </p>
-            </div>
-        </div>
-        <div class="feature-row">
-            <div class="feature-icon">
-                <i class="fas fa-wrench fa-4x"></i>
-            </div>
-            <div class="feature-text">
-                <h2>
-                    Reparationer
-                </h2>
-                <p>
-                    Högteknologisaka bilar med den senaste utrustningen ställer även höga krav
-                    på bilverkstadens teknologi och kunnande. Vi kan erbjuda er en certifierad och kunnig verkstad som
-                    tar hand om alla era reparationsbehov, oavsett om det gäller högteknologiska komponenter eller
-                    mekanisk reparation. 
-                </p>
-            </div>
-        </div>
-        <div class="feature-row">
-            <div class="feature-icon">
-                <i class="fas fa-check fa-4x"></i>
-            </div>
-            <div class="feature-text">
-                <h2>
-                    Garanti
-                </h2>
-                <p>
-                    All utförd service och samtliga reparationer kommer med garanti för er trygghet.
-                </p>
-            </div>
-        </div>-->
     </section>
     <section id="contact-service">
         <div class="contact-info">
@@ -100,12 +56,67 @@
                 Kontaktformulär
             </h2>
             <p>
-                Boka gärna tid genom nedanstående kontaktformulär. Ange om det
+                Boka gärna tid genom att använda detta kontaktformuläret. Ange om det
                 gäller felsökning, service eller reparation. Du kan även komma in på vår verkstad så hjälper vi dig
                 med en tidsbokning eller drop-in.
             </p>
         </div>
-        <hr>
+        
+        <form action="" method="" class="contact-form">
+            <div class="contact-row">
+                <div class="contact-group">
+                    <label>För- och efternamn*</label>
+                    <input name="name" type="text" placeholder="För- och efternamn*" required />
+                </div>
+                <div class="contact-group">
+                    <label>Epost*</label>
+                    <input name="email" type="email" placeholder="Epost*" required />
+                </div>
+            </div>
+            <div class="contact-row">
+                <div class="contact-group">
+                    <label>Telefon*</label>
+                    <input name="phone" type="tel" placeholder="Telefon*" required/>
+                </div>
+                <div class="contact-group">
+                    <label>Registreringsnummer*</label>
+                    <input name="regnr" type="text" placeholder="Regnummer*" required/>
+                </div>
+            </div>
+
+            <div class="contact-row">
+                <div class="contact-group">
+                    <label>Datum*</label>
+                    <input name="date" type="date" placeholder="Datum*" required/>
+                </div>
+                <div class="contact-group">
+                <label>Vad gäller ditt ärende?</label>
+                    <select>
+                        <option>Felsökning</option>
+                        <option>Service</option>
+                        <option>Reparation</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-msg-submit">
+                <div class="contact-group">
+                    <label>Ditt meddelande</label>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Skicka meddelandet">
+                </div>
+            </div>
+
+               
+
+
+
+        </form>
+        
+
+        <!--
         <form action="">
             <div class="form-group">
                 <div class="form-row">
@@ -143,9 +154,9 @@
                 <textarea></textarea>
             </div>
             <div class="btn form-group ">
-                <input type="submit" value="Skicka meddelandet" >
+                <input type="submit" value="Skicka meddelandet">
             </div>
-        </form>
+        </form>-->
     </section>
 </main>
 <?php
