@@ -67,7 +67,7 @@
         }
     }
     .form-msg-submit{
-        align-items: flex-end;
+        align-items: baseline;
         display: flex;
         justify-content: space-around;
         textarea{
@@ -76,7 +76,7 @@
         } 
 
         input[type="submit"]{
-            align-self: flex-end;
+            align-self: baseline; 
             width: 150px;
             height: 35px;  
         } 

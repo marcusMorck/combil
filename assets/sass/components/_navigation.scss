@@ -1,8 +1,46 @@
 .main-nav{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .toggle{
+        display: none;
+    }
+
+    a{
+        text-decoration: none; 
+        color: #fff;
+        margin-right: 5vh;
+    }
+    a:hover,
+    a:active{
+        color: rgb(44, 78, 189);
+    }
+}
+
+@media screen and (max-width:480px){
+    .main-nav{
+        .toggle{
+            display: block;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+/*.main-nav{
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
 }
+
 .main-nav a {
     display: flex;
     justify-content: center;
@@ -12,7 +50,7 @@
 }
 .main-nav a:hover{
     color: rgb(44, 78, 189);
-    /*border-bottom: rgb(35, 98, 193) solid 1px;  */
+    /*border-bottom: rgb(35, 98, 193) solid 1px; 
 }
 .fa-bars{
     color: #fff;
@@ -24,3 +62,40 @@
 .active {
     color:lightblue;
 }
+ .main-nav{
+    background: linear-gradient(to bottom, #000000 0%, #000129 100%);
+
+    div, nav{
+        display: none;
+    }
+    .toggle, .brand{
+        display: inline-block;
+    }
+    .link{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        background-color: #000129;
+        color: #fff;
+    }
+
+    .link:hover, .link:active{
+        color: rgb(44, 78, 189);
+    }
+    .toggle{
+        padding: 10px;
+        color: #000000;
+    }
+ }
+
+ @media screen and (min-width: 480px){
+        .main-nav{
+            display: flex;
+        }
+
+
+ }
+ */
+
+

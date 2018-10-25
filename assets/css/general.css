@@ -169,7 +169,7 @@ body ul li, html ul li {
   margin-bottom: 5px;
 }
 #contact-service .form-msg-submit {
-  align-items: flex-end;
+  align-items: baseline;
   display: flex;
   justify-content: space-around;
 }
@@ -178,7 +178,7 @@ body ul li, html ul li {
   min-width: 100vh;
 }
 #contact-service .form-msg-submit input[type=submit] {
-  align-self: flex-end;
+  align-self: baseline;
   width: 150px;
   height: 35px;
 }
@@ -274,6 +274,7 @@ main .intro h2 {
 --------------COMPONENTS---------------
 -------------------------------------*/
 .logo {
+  display: block;
   width: 200px;
   height: 50px;
 }
@@ -283,37 +284,91 @@ main .intro h2 {
 }
 
 .main-nav {
-  padding: 16px 0;
+  height: 20vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.main-nav .toggle {
+  display: none;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5vh;
+}
+.main-nav a:hover,
+.main-nav a:active {
+  color: #2c4ebd;
+}
+
+@media screen and (max-width: 480px) {
+  .main-nav .toggle {
+    display: block;
+  }
+}
+/*.main-nav{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-nav a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: #fff;
-  padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none; 
+    color: #fff;
+    padding-right: 40px; 
 }
-
-.main-nav a:hover {
-  color: #2c4ebd;
-  /*border-bottom: rgb(35, 98, 193) solid 1px;  */
+.main-nav a:hover{
+    color: rgb(44, 78, 189);
+    /*border-bottom: rgb(35, 98, 193) solid 1px; 
 }
-
-.fa-bars {
-  color: #fff;
-  display: none;
+.fa-bars{
+    color: #fff;
+    display: none;
 }
-
-.hamburger {
-  display: none;
+.hamburger{
+    display: none;
 }
-
 .active {
-  color: lightblue;
+    color:lightblue;
 }
+ .main-nav{
+    background: linear-gradient(to bottom, #000000 0%, #000129 100%);
 
+    div, nav{
+        display: none;
+    }
+    .toggle, .brand{
+        display: inline-block;
+    }
+    .link{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        background-color: #000129;
+        color: #fff;
+    }
+
+    .link:hover, .link:active{
+        color: rgb(44, 78, 189);
+    }
+    .toggle{
+        padding: 10px;
+        color: #000000;
+    }
+ }
+
+ @media screen and (min-width: 480px){
+        .main-nav{
+            display: flex;
+        }
+
+
+ }
+ */
 .index {
   background: url("/images/Bild16Combillogo.jpg") center center no-repeat;
 }
@@ -382,49 +437,60 @@ main .intro h2 {
 --------------LAYOUT-------------------
 -------------------------------------*/
 header {
-  /*background-color: #000000;*/
   background: linear-gradient(to bottom, #000000 0%, #000129 100%);
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  font-family: "Work Sans", sans-serif;
-}
-header .logo {
-  padding-left: 20px;
 }
 
-@media screen and (max-width: 1000px) {
-  header .logo {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 980px) {
-  header a {
-    order: 3;
-  }
-  header .main-nav {
-    margin-top: 200px;
-    display: none;
-    order: 2;
-    background-color: #000129;
-    padding: 0px;
-  }
-  header .main-nav a {
-    padding: 14px 16px;
-    border-bottom: solid 1px #0059a7;
-  }
-  header .main-nav a:last-child {
-    border: none;
-  }
-  header .hamburger {
-    order: 1;
+/*header{
+
+    /*background-color: #000000;*/
+/*
+    background: linear-gradient(to bottom, #000000 0%, #000129 100%);
+    height: 100px;
+    width: 100%;
     display: flex;
-    padding-left: 20px;
-  }
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Work Sans', sans-serif;
+    .logo{
+        padding-left: 20px;
+    }
+} 
+@media screen and(max-width:1000px){
+    header{
+        .logo{
+            padding: 0;
+        }
+    }
 }
+@media screen and(max-width:980px){
+    header{
+
+        a{
+            order: 3;
+        }
+        .main-nav{
+            margin-top: 200px; 
+            display: none;
+            order: 2;
+            background-color: #000129;
+            padding: 0px;
+            a{
+                padding: 14px 16px;
+                border-bottom: solid 1px #0059a7;
+            }
+            a:last-child{
+                border: none;
+            }
+        }
+        .hamburger{
+            order: 1;
+            display: flex;
+            padding-left: 20px;
+        }
+    }
+}
+*/
 footer {
   display: flex;
   justify-content: center;
