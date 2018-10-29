@@ -3,8 +3,8 @@
 ?>
 
 <div class="hero index">
-    <div class="overlay">
-        <h1>Välkommen till Combil!</h1>
+    <div class="hero-overlay">
+        <h1 class="hero-title">Välkommen till Combil!</h1>
     </div>
 </div>
 <main role="main">

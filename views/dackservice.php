@@ -2,7 +2,7 @@
     include "header.php";
 ?>
 <div class="hero wheelservice">
-    <div class="overlay">
+    <div class="hero-overlay">
         <h1 class="hero-title">Däckservice</h1>
     </div>
 </div>

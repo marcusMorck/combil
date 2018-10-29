@@ -2,7 +2,7 @@
     include "header.php";
 ?>
 <div class="hero newsblog">
-    <div class="overlay">
+    <div class="hero-overlay">
         <h1 class="hero-title">Nyhetsblogg</h1>
     </div>
 </div>

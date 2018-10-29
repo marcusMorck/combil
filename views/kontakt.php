@@ -3,7 +3,7 @@
 ?>
 
     <div class="hero contact">
-        <div class="overlay">
+        <div class="hero-overlay">
             <h1 class="hero-title">Kontakt</h1>
         </div>
     

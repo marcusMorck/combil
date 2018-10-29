@@ -3,11 +3,10 @@
 ?>
 <div class="hero service">
 
-    <div class="overlay">
+    <div class="hero-overlay">
        <h1 class="hero-title">Service och reparation</h1>
     </div>
 </div>
-
 <main role="main">
     <section class="intro">
         <h2>Vi utför service och reparationer</h2> 

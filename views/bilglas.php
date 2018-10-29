@@ -2,7 +2,7 @@
     include "header.php";
 ?>
 <div class="hero carglas">
-    <div class="overlay">
+    <div class="hero-overlay">
         <h1 class="hero-title">Bilglas</h1>
     </div>
 </div>

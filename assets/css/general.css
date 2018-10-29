@@ -391,6 +391,10 @@ main .intro h2 {
 
  }
  */
+/*
+Classes with different background images. Every class represents an individual image
+for the hero section. 
+*/
 .index {
   background: url("/images/Bild16Combillogo.jpg") center center no-repeat;
 }
@@ -424,30 +428,32 @@ main .intro h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 80vh;
   background-size: cover;
 }
-.hero .overlay {
+.hero .hero-overlay {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 2vh;
-  min-width: 40vh;
-  height: 30vh;
   border: 1px solid #0559a2;
   border-radius: 5px;
+  padding: 40px 120px;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.hero .hero-text {
-  color: #fff;
-  font-size: 1vh;
-  line-height: 1.5;
+.hero .hero-overlay .hero-title {
+  font-family: "Helvetica", sans-serif;
+  font-size: 5vh;
+  line-height: 0.9;
+  text-align: center;
 }
 
-@media only screen and (min-width: 32em) {
-  .hero-title {
-    font-size: 16vh;
+@media only screen and (max-width: 800px) {
+  .hero {
+    height: 80vmin;
+  }
+  .hero .hero-overlay .hero-title {
+    font-size: 3vh;
   }
 }
 /*-------------------------------------
