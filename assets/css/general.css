@@ -283,14 +283,17 @@ main .intro h2 {
   max-height: 100%;
 }
 
-.main-nav {
-  height: 20vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main-nav .toggle {
+.toggle {
   display: none;
+  padding: 15px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.main-nav {
+  display: flex;
 }
 .main-nav a {
   text-decoration: none;
@@ -302,9 +305,28 @@ main .intro h2 {
   color: #2c4ebd;
 }
 
-@media screen and (max-width: 480px) {
-  .main-nav .toggle {
+@media screen and (max-width: 950px) {
+  .main-nav {
+    position: absolute;
+    top: 98;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .main-nav a {
+    padding: 20px;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .toggle {
     display: block;
+  }
+
+  header {
+    justify-content: center;
   }
 }
 /*.main-nav{
@@ -410,21 +432,16 @@ main .intro h2 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 32em;
+  padding: 2vh;
+  min-width: 40vh;
   height: 30vh;
   border: 1px solid #0559a2;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.hero .hero-title {
-  color: #fff;
-  max-width: 20em;
-  font-size: 6vh;
-  line-height: 0.9;
-}
 .hero .hero-text {
   color: #fff;
-  font-size: 2vh;
+  font-size: 1vh;
   line-height: 1.5;
 }
 
@@ -437,60 +454,14 @@ main .intro h2 {
 --------------LAYOUT-------------------
 -------------------------------------*/
 header {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: linear-gradient(to bottom, #000000 0%, #000129 100%);
 }
 
-/*header{
-
-    /*background-color: #000000;*/
-/*
-    background: linear-gradient(to bottom, #000000 0%, #000129 100%);
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    font-family: 'Work Sans', sans-serif;
-    .logo{
-        padding-left: 20px;
-    }
-} 
-@media screen and(max-width:1000px){
-    header{
-        .logo{
-            padding: 0;
-        }
-    }
-}
-@media screen and(max-width:980px){
-    header{
-
-        a{
-            order: 3;
-        }
-        .main-nav{
-            margin-top: 200px; 
-            display: none;
-            order: 2;
-            background-color: #000129;
-            padding: 0px;
-            a{
-                padding: 14px 16px;
-                border-bottom: solid 1px #0059a7;
-            }
-            a:last-child{
-                border: none;
-            }
-        }
-        .hamburger{
-            order: 1;
-            display: flex;
-            padding-left: 20px;
-        }
-    }
-}
-*/
 footer {
   display: flex;
   justify-content: center;
@@ -596,19 +567,42 @@ footer .copyright p {
 -------------------------------------*/
 body {
   color: #fff;
-  /* display: flex;
-   height: 100%;
-   flex-direction: column;
-   */
 }
 
-html {
-  /* font-family: 'Work Sans', sans-serif;*/
-  font-family: "Roboto", sans-serif;
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 7vh;
+  line-height: 0.9;
+}
+
+h2 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 3.5vh;
+  line-height: 0.9;
+}
+
+h3 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 3vh;
+  line-height: 0.9;
+}
+
+h4 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 2.5vh;
+  line-height: 0.9;
+}
+
+p {
+  font-size: 2.3vh;
+  line-height: 1.5;
+}
+
+a, p {
+  font-family: "Work Sans", sans-serif;
 }
 
 main {
-  /*background: linear-gradient(to bottom, #000129 0%, #3366cc 100%);*/
   background: linear-gradient(to bottom, #000129 0%, #003399 100%);
   flex: 1 0 auto;
   display: flex;

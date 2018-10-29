@@ -18,7 +18,6 @@
 }
 .newsblog{
     background: url("/images/Bild08Noplatebc.jpg") center center no-repeat;
-
 }
 
 .hero{
@@ -28,28 +27,22 @@
     align-items: center;
     height: 65vh;
     background-size: cover;
-    
     .overlay{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        width: 32em;
+        padding: 2vh;
+        min-width: 40vh;
         height: 30vh;
         border: 1px solid #0559a2;
         border-radius: 5px;
         background-color: rgba(0,0,0,0.40);
-        
     }
-    .hero-title{
-        color: #fff;
-        max-width: 20em;
-        font-size: 6vh;
-        line-height: 0.9;
-    }
+  
     .hero-text{
         color: #fff;
-        font-size: 2vh;
+        font-size: 1vh;
         line-height: 1.5;
     }
 }

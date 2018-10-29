@@ -3,8 +3,6 @@
 -------------------------------------*/
 @import 'base/reset';
 
-
-
 /*-------------------------------------
 --------------PAGES--------------------
 -------------------------------------*/
@@ -13,9 +11,6 @@
 @import 'pages/nyhetsblogg';
 @import 'pages/kontakt';
 @import 'pages/butik';
-
-
-
 
 /*-------------------------------------
 --------------COMPONENTS---------------
@@ -36,20 +31,39 @@
 
 body{
     color: #fff; 
-   /* display: flex;
-    height: 100%;
-    flex-direction: column;
-    */
 }
-html {
-   /* font-family: 'Work Sans', sans-serif;*/
-   font-family: 'Roboto', sans-serif;
 
+h1{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 7vh;
+    line-height: 0.9;
 }
+h2{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 3.5vh;
+    line-height: 0.9;
+}
+h3{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 3vh;
+    line-height: 0.9;
+}
+h4{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2.5vh;
+    line-height: 0.9;
+}
+p{
+    font-size: 2.3vh;
+    line-height: 1.5;
+}
+a, p{
+    font-family: 'Work Sans', sans-serif;
+}
+
 
 
 main{
-    /*background: linear-gradient(to bottom, #000129 0%, #3366cc 100%);*/
     background: linear-gradient(to bottom, #000129 0%, #003399 100%);
     flex: 1 0 auto;
     display: flex;

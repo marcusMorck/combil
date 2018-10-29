@@ -1,29 +1,44 @@
+.toggle{
+    display: none;
+    padding: 15px;
+}
+.logo{
+    margin-left: 20px;
+}
 .main-nav{
-    height: 20vh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    .toggle{
-        display: none;
-    }
-
     a{
         text-decoration: none; 
         color: #fff;
         margin-right: 5vh;
     }
+    
     a:hover,
     a:active{
         color: rgb(44, 78, 189);
     }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:950px){
     .main-nav{
-        .toggle{
-            display: block;
+        position: absolute;
+        top: 98;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        a{
+            
+            padding: 20px;
         }
+    }
+    .logo{
+        align-self: center;
+    }
+    .toggle{
+        display: block;
+    }
+    header{
+        justify-content: center;
     }
 
 }
