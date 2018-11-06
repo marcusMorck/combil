@@ -19,7 +19,7 @@
     <section id="feature-service">
         <div>
             <div class="feature-icon">
-                <img src="/images/service-icon.png" />
+                <img src="/assets/images/service-icon.png" />
             </div>
             <h2>Service</h2>
             <p>Regelbunden bilservice förlänger din bils livslängd och
@@ -29,7 +29,7 @@
         </div>
         <div>
             <div class="feature-icon">
-                <img src="/images/repair-icon.png" />
+                <img src="/assets/images/repair-icon.png" />
             </div>
             <h2>Reparationer</h2>
             <p>
@@ -41,7 +41,7 @@
         </div>
         <div> 
             <div class="feature-icon">
-                <img src="/images/ok-icon.png" />
+                <img src="/assets/images/ok-icon.png" />
             </div>
             <h2>Garanti</h2>
             <p>

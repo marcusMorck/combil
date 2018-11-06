@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="karta">
-            <img src="images/map.png" >
+            <img src="/assets/images/map.png" >
         </div>
     </section>
 

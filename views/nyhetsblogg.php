@@ -19,7 +19,7 @@
                 </p>
             </div>
             <div class="post-img">
-                <img src="images/bild 15.jpg" />
+                <img src="/assets/images/bild 15.jpg" />
             </div>
         </div>
         <div class="post">
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class="post-img">
-                <img src="images/bild 36.jpg" />
+                <img src="/assets/images/bild 36.jpg" />
             </div>
         </div>
     </section>

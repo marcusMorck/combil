@@ -1,7 +1,7 @@
         <footer>
             <div class="footer-container">
                 <div class="logo">
-                    <img src="images/combil-logo.png" />
+                    <img src="/assets/images/combil-logo.png" />
                 </div>
                 <div class="footer-links">
                     <a href="/">Hem</a>

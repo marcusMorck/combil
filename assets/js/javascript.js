@@ -7,6 +7,7 @@ $(document).ready(function(){
     
     // Toggles the mobile menu.
     $(".toggle").click(function(){
-        $(".main-nav").toggle();
+        $(".main-nav").animate({width: 'toggle',}, "slow"
+        );
     })
 });

@@ -21,11 +21,12 @@
 
 @media screen and (max-width:950px){
     .main-nav{
+        width: 100%;
         position: absolute;
         top: 98;
         flex-direction: column;
         text-align: center;
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0.4, 16.1, 0.8);
         a{
             
             padding: 20px;
@@ -42,75 +43,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-/*.main-nav{
-    padding: 16px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-nav a {
-    display: flex;
-    justify-content: center;
-    text-decoration: none; 
-    color: #fff;
-    padding-right: 40px; 
-}
-.main-nav a:hover{
-    color: rgb(44, 78, 189);
-    /*border-bottom: rgb(35, 98, 193) solid 1px; 
-}
-.fa-bars{
-    color: #fff;
-    display: none;
-}
-.hamburger{
-    display: none;
-}
-.active {
-    color:lightblue;
-}
- .main-nav{
-    background: linear-gradient(to bottom, #000000 0%, #000129 100%);
-
-    div, nav{
-        display: none;
-    }
-    .toggle, .brand{
-        display: inline-block;
-    }
-    .link{
-        display: block;
-        text-align: center;
-        padding: 10px;
-        text-decoration: none;
-        background-color: #000129;
-        color: #fff;
-    }
-
-    .link:hover, .link:active{
-        color: rgb(44, 78, 189);
-    }
-    .toggle{
-        padding: 10px;
-        color: #000000;
-    }
- }
-
- @media screen and (min-width: 480px){
-        .main-nav{
-            display: flex;
-        }
-
-
- }
- */
-
-

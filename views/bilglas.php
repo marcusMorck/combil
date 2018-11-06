@@ -7,10 +7,13 @@
     </div>
 </div>
 <main role="main">
-<p>
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-</p>
+    <section class="intro">
+    <h2>Vi utför byte och reperationer av bilglas</h2>
+    <p>
+        Om du har sprickor eller stenskott på din bil så hjälper
+        vi er med detta.
+    </p>
+    </section>
 </main>
 <?php
     include "footer.php";

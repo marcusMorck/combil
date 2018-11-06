@@ -19,7 +19,7 @@
                 <i class="fas fa-bars"></i>
             </div>
             <a href="/" class="logo">
-                <img src="images/combil-logo.png" />         
+                <img src="assets/images/combil-logo.png" />         
             </a>
             <nav class="main-nav">
                 <a href="/">Hem</a>
