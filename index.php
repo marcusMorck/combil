@@ -10,13 +10,17 @@ switch ($request) {
         require __DIR__ . '/views/index.php';
         break;
     case '/butik':
-        require __DIR__ . '/views/butik.php';
+        require __DIR__ . '/header.php';
+        require __DIR__ . '/components/hero.php';
+        require __DIR__ . '/footer.php';
         break;
     case '/service&reparation':
         require __DIR__ . '/views/service&reparation.php';  
         break;
     case '/dackservice':
-        require __DIR__ . '/views/dackservice.php';  
+        require __DIR__ . '/header.php';
+        require __DIR__ . '/components/hero.php';
+        require __DIR__ . '/footer.php';
         break;
     case '/bilglas':
         require __DIR__ . '/views/bilglas.php';  

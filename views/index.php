@@ -1,5 +1,7 @@
 <?php
  include "header.php"; //Include header
+
+ include "components/hero.php";
 ?>
 
 <div class="hero index">
