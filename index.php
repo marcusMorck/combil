@@ -4,14 +4,18 @@ $request = $_SERVER['REDIRECT_URL'];
 
 switch ($request) {
     case '/':
-        require __DIR__ . '/views/index.php';
+        require __DIR__ . '/header.php';
+        require __DIR__ . '/components/hero/hero.php';
+        require __DIR__ . '/footer.php';
         break;
     case '':
-        require __DIR__ . '/views/index.php';
+        require __DIR__ . '/header.php';
+        require __DIR__ . '/components/hero/hero.php';
+        require __DIR__ . '/footer.php';
         break;
     case '/butik':
         require __DIR__ . '/header.php';
-        require __DIR__ . '/components/hero.php';
+        require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/footer.php';
         break;
     case '/service&reparation':
@@ -19,7 +23,7 @@ switch ($request) {
         break;
     case '/dackservice':
         require __DIR__ . '/header.php';
-        require __DIR__ . '/components/hero.php';
+        require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/footer.php';
         break;
     case '/bilglas':
