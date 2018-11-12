@@ -1,3 +1,4 @@
+</main>
         <footer>
             <div class="footer-container">
                 <div class="logo">
@@ -28,7 +29,7 @@
                 </div>
             </div>
             <div class="copyright">
-                    <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?> --- All rights reserved.</p>
+                    <p>	&copy;Copyright Marcus Morck <?php echo date('Y'); ?> --- All rights reserved.</p> 
             </div>
         </footer>
     </body>

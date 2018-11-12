@@ -4,9 +4,9 @@
     function changeHero($c, $t){
         
         }
+
     switch ($request){
         case '':
-
             $class = "index";
             $title = "Välkommen till Combil!";
             require "templates/hero-template.php";
@@ -21,6 +21,11 @@
             $title = "Butik";
             require "templates/hero-template.php";
         break;
+        case '/service&reparation':
+            $class = "service";
+            $title = "Service & Reparation";
+            require "templates/hero-template.php";
+        break;
         case '/dackservice':
             $class = "wheelservice";
             $title = "Däckservice";
@@ -29,14 +34,17 @@
         case '/bilglas':
             $class = "carglas";
             $title = "Bilglas";
+            require "templates/hero-template.php";
         break;
         case '/kontakt':
             $class = "contact";
             $title = "Kontakt";
+            require "templates/hero-template.php";
         break;
         case '/nyhetsblogg':
             $class = "newsblog";
             $title = "Nyhetsblogg";
+            require "templates/hero-template.php";
         break;
     }
 

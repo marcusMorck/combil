@@ -31,3 +31,4 @@
                 <a href="/nyhetsblogg">Nyhetsblogg</a> 
             </nav>
     </header>
+    <main>
