@@ -7,12 +7,16 @@ switch ($request) {
         require __DIR__ . '/header.php';
         require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/components/intro/intro.php';
+        require __DIR__ . '/components/opening-hours/opening-hours.php';
+        require __DIR__ . '/components/home-boking/home-boking.php'; 
         require __DIR__ . '/footer.php';
         break;
     case '':
         require __DIR__ . '/header.php';
         require __DIR__ . '/components/hero/hero.php';
-        require __DIR__ . '/components/intro/intro.php';   
+        require __DIR__ . '/components/intro/intro.php';
+        require __DIR__ . '/components/opening-hours/opening-hours.php';
+        require __DIR__ . '/components/home-boking/home-boking.php';   
         require __DIR__ . '/footer.php';
         
         break;
@@ -26,6 +30,7 @@ switch ($request) {
         require __DIR__ . '/header.php';
         require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/components/intro/intro.php';
+        require __DIR__ . '/components/feature-service/feature-service.php';
         require __DIR__ . '/footer.php';
         break;
     case '/dackservice':
