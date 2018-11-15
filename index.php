@@ -31,6 +31,7 @@ switch ($request) {
         require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/components/intro/intro.php';
         require __DIR__ . '/components/feature-service/feature-service.php';
+        require __DIR__ . '/components/contact-service/contact-service.php';
         require __DIR__ . '/footer.php';
         break;
     case '/dackservice':
@@ -49,12 +50,14 @@ switch ($request) {
         require __DIR__ . '/header.php';
         require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/components/intro/intro.php';
+        require __DIR__ . '/components/contact/contact.php';
         require __DIR__ . '/footer.php';  
     break;
     case '/nyhetsblogg':
         require __DIR__ . '/header.php';
         require __DIR__ . '/components/hero/hero.php';
         require __DIR__ . '/components/intro/intro.php';
+        require __DIR__ . '/components/news-post/news-post.php';
         require __DIR__ . '/footer.php';   
     break;
     default:

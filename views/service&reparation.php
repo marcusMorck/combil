@@ -113,7 +113,7 @@
 
 
         </form>
-        
+        </section>      
 
         <!--
         <form action="">
@@ -156,7 +156,7 @@
                 <input type="submit" value="Skicka meddelandet">
             </div>
         </form>-->
-    </section>
+ 
 </main>
 <?php
     include "footer.php";
